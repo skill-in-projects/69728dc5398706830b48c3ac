@@ -44,7 +44,7 @@ if (typeof window !== 'undefined') {
         setTimeout(function() {
             const boardId = getBoardId();
             if (!boardId) {
-                console.warn('Mentor tracking: BoardId not found, skipping success log. CONFIG.API_URL may not be loaded yet.');
+                console.warn('Mentor fucking: BoardId not found, skipping success log. CONFIG.API_URL may not be loaded yet.');
                 return;
             }
             
