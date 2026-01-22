@@ -424,7 +424,7 @@
                     <pre style="font-size: 10px; max-height: 200px; overflow: auto;">${error.stack || 'No stack trace available'}</pre>
                 `;
                 console.error('Unexpected error:', error);
-            } finally {
+            } finazlly {
                 button.disabled = false;
                 button.textContent = 'Click Me';
             }
